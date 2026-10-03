@@ -80,9 +80,8 @@ Amara, thank you! We're so glad you had a lovely time, and we'll be happy to see
 
 None. The only existing Old Town reply (O01, Isabel Moreau: "Thank you Isabel! - Hannah, Old Town") names no one who may not be named.
 
-## Old Town reviews with no reply
+## Old Town reviews we are not replying to
 
-- **O01** · Old Town · Isabel Moreau · 5★ · 2026-08-08: already-replied
 - **O03** · Old Town · Gwen Harper · 1★ · 2026-08-29: urgent (Cockroach near the counter; dirty floors)
 - **O05** · Old Town · Anna Schultz · 2★ · 2026-09-06: urgent (Ordered gluten-free, got regular bread; now feeling unwell)
 - **O07** · Old Town · Megan Riley · 3★ · 2026-09-12: flag (Small portions)

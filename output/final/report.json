@@ -1,0 +1,834 @@
+{
+ "month": "2026-09",
+ "generated_at": "2026-10-03T17:32:46Z",
+ "definitions": "Playbook section 5: reviews with createTime in the month, current stars, all three locations, category deleted excluded. replied = owner reply visible (API) or confirmed posted (Old Town).",
+ "old_town_confirmed_posted": [
+  "O02",
+  "O04",
+  "O06",
+  "O08",
+  "O09",
+  "O10",
+  "O12"
+ ],
+ "by_location": {
+  "Midtown": {
+   "new_reviews": 16,
+   "average_rating": 3.94,
+   "stars_1": 2,
+   "stars_2": 2,
+   "stars_3": 0,
+   "stars_4": 3,
+   "stars_5": 9,
+   "replied": 14,
+   "manual_pending": 0,
+   "reply_rate": 87.5,
+   "flagged_for_owner": 5,
+   "awaiting_owner": 2,
+   "urgent": 1,
+   "removal_requested": 1,
+   "ids": {
+    "new_reviews": [
+     "M10",
+     "M11",
+     "M12",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M24",
+     "M25",
+     "M26",
+     "M27"
+    ],
+    "replied": [
+     "M10",
+     "M11",
+     "M12",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M21",
+     "M24",
+     "M25",
+     "M26",
+     "M27"
+    ],
+    "manual_pending": [],
+    "flagged_for_owner": [
+     "M11",
+     "M14",
+     "M16",
+     "M24",
+     "M25"
+    ],
+    "awaiting_owner": [
+     "M14",
+     "M24"
+    ],
+    "urgent": [
+     "M20"
+    ],
+    "removal_requested": [
+     "M22"
+    ],
+    "stars_1": [
+     "M11",
+     "M20"
+    ],
+    "stars_2": [
+     "M16",
+     "M25"
+    ],
+    "stars_3": [],
+    "stars_4": [
+     "M14",
+     "M21",
+     "M24"
+    ],
+    "stars_5": [
+     "M10",
+     "M12",
+     "M15",
+     "M17",
+     "M18",
+     "M19",
+     "M22",
+     "M26",
+     "M27"
+    ]
+   }
+  },
+  "Riverside": {
+   "new_reviews": 17,
+   "average_rating": 3.53,
+   "stars_1": 3,
+   "stars_2": 2,
+   "stars_3": 2,
+   "stars_4": 3,
+   "stars_5": 7,
+   "replied": 10,
+   "manual_pending": 0,
+   "reply_rate": 58.8,
+   "flagged_for_owner": 7,
+   "awaiting_owner": 4,
+   "urgent": 2,
+   "removal_requested": 2,
+   "ids": {
+    "new_reviews": [
+     "R08",
+     "R09",
+     "R10",
+     "R11",
+     "R12",
+     "R13",
+     "R14",
+     "R16",
+     "R17",
+     "R18",
+     "R19",
+     "R20",
+     "R21",
+     "R22",
+     "R23",
+     "R24",
+     "R25"
+    ],
+    "replied": [
+     "R08",
+     "R09",
+     "R11",
+     "R14",
+     "R17",
+     "R19",
+     "R20",
+     "R21",
+     "R22",
+     "R23"
+    ],
+    "manual_pending": [],
+    "flagged_for_owner": [
+     "R09",
+     "R13",
+     "R16",
+     "R19",
+     "R20",
+     "R22",
+     "R25"
+    ],
+    "awaiting_owner": [
+     "R09",
+     "R19",
+     "R20",
+     "R25"
+    ],
+    "urgent": [
+     "R10",
+     "R18"
+    ],
+    "removal_requested": [
+     "R12",
+     "R24"
+    ],
+    "stars_1": [
+     "R10",
+     "R16",
+     "R24"
+    ],
+    "stars_2": [
+     "R18",
+     "R25"
+    ],
+    "stars_3": [
+     "R13",
+     "R22"
+    ],
+    "stars_4": [
+     "R09",
+     "R14",
+     "R19"
+    ],
+    "stars_5": [
+     "R08",
+     "R11",
+     "R12",
+     "R17",
+     "R20",
+     "R21",
+     "R23"
+    ]
+   }
+  },
+  "Old Town": {
+   "new_reviews": 9,
+   "average_rating": 3.78,
+   "stars_1": 1,
+   "stars_2": 1,
+   "stars_3": 1,
+   "stars_4": 2,
+   "stars_5": 4,
+   "replied": 6,
+   "manual_pending": 1,
+   "reply_rate": 66.7,
+   "flagged_for_owner": 2,
+   "awaiting_owner": 1,
+   "urgent": 1,
+   "removal_requested": 1,
+   "ids": {
+    "new_reviews": [
+     "O04",
+     "O05",
+     "O06",
+     "O07",
+     "O08",
+     "O09",
+     "O10",
+     "O11",
+     "O12"
+    ],
+    "replied": [
+     "O04",
+     "O06",
+     "O08",
+     "O09",
+     "O10",
+     "O12"
+    ],
+    "manual_pending": [
+     "O07"
+    ],
+    "flagged_for_owner": [
+     "O07",
+     "O09"
+    ],
+    "awaiting_owner": [
+     "O09"
+    ],
+    "urgent": [
+     "O05"
+    ],
+    "removal_requested": [
+     "O11"
+    ],
+    "stars_1": [
+     "O11"
+    ],
+    "stars_2": [
+     "O05"
+    ],
+    "stars_3": [
+     "O07"
+    ],
+    "stars_4": [
+     "O09",
+     "O12"
+    ],
+    "stars_5": [
+     "O04",
+     "O06",
+     "O08",
+     "O10"
+    ]
+   }
+  }
+ },
+ "total": {
+  "new_reviews": 42,
+  "average_rating": 3.74,
+  "stars_1": 6,
+  "stars_2": 5,
+  "stars_3": 3,
+  "stars_4": 8,
+  "stars_5": 20,
+  "replied": 30,
+  "manual_pending": 1,
+  "reply_rate": 71.4,
+  "flagged_for_owner": 14,
+  "awaiting_owner": 7,
+  "urgent": 4,
+  "removal_requested": 4,
+  "ids": {
+   "new_reviews": [
+    "M10",
+    "M11",
+    "M12",
+    "M14",
+    "M15",
+    "M16",
+    "M17",
+    "M18",
+    "M19",
+    "M20",
+    "M21",
+    "M22",
+    "M24",
+    "M25",
+    "M26",
+    "M27",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R16",
+    "R17",
+    "R18",
+    "R19",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R24",
+    "R25",
+    "O04",
+    "O05",
+    "O06",
+    "O07",
+    "O08",
+    "O09",
+    "O10",
+    "O11",
+    "O12"
+   ],
+   "replied": [
+    "M10",
+    "M11",
+    "M12",
+    "M14",
+    "M15",
+    "M16",
+    "M17",
+    "M18",
+    "M19",
+    "M21",
+    "M24",
+    "M25",
+    "M26",
+    "M27",
+    "R08",
+    "R09",
+    "R11",
+    "R14",
+    "R17",
+    "R19",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "O04",
+    "O06",
+    "O08",
+    "O09",
+    "O10",
+    "O12"
+   ],
+   "manual_pending": [
+    "O07"
+   ],
+   "flagged_for_owner": [
+    "M11",
+    "M14",
+    "M16",
+    "M24",
+    "M25",
+    "R09",
+    "R13",
+    "R16",
+    "R19",
+    "R20",
+    "R22",
+    "R25",
+    "O07",
+    "O09"
+   ],
+   "awaiting_owner": [
+    "M14",
+    "M24",
+    "R09",
+    "R19",
+    "R20",
+    "R25",
+    "O09"
+   ],
+   "urgent": [
+    "M20",
+    "R10",
+    "R18",
+    "O05"
+   ],
+   "removal_requested": [
+    "M22",
+    "R12",
+    "R24",
+    "O11"
+   ],
+   "stars_1": [
+    "M11",
+    "M20",
+    "R10",
+    "R16",
+    "R24",
+    "O11"
+   ],
+   "stars_2": [
+    "M16",
+    "M25",
+    "R18",
+    "R25",
+    "O05"
+   ],
+   "stars_3": [
+    "R13",
+    "R22",
+    "O07"
+   ],
+   "stars_4": [
+    "M14",
+    "M21",
+    "M24",
+    "R09",
+    "R14",
+    "R19",
+    "O09",
+    "O12"
+   ],
+   "stars_5": [
+    "M10",
+    "M12",
+    "M15",
+    "M17",
+    "M18",
+    "M19",
+    "M22",
+    "M26",
+    "M27",
+    "R08",
+    "R11",
+    "R12",
+    "R17",
+    "R20",
+    "R21",
+    "R23",
+    "O04",
+    "O06",
+    "O08",
+    "O10"
+   ]
+  }
+ },
+ "deleted_reviews": [
+  {
+   "our_id": "M13",
+   "location": "Midtown",
+   "reviewer": "Local Foodie 99",
+   "stars": 1,
+   "create_date": "2026-09-05"
+  },
+  {
+   "our_id": "M23",
+   "location": "Midtown",
+   "reviewer": "Simone Laurent",
+   "stars": 5,
+   "create_date": "2026-09-22"
+  },
+  {
+   "our_id": "R15",
+   "location": "Riverside",
+   "reviewer": "Liam Walsh",
+   "stars": 5,
+   "create_date": "2026-09-13"
+  }
+ ],
+ "reply_corrections": [
+  {
+   "our_id": "M01",
+   "location": "Midtown",
+   "reason": "existing reply replaced under rule 1/4c",
+   "old_reply": "Thank you Grace! Jess will be thrilled. - Priya, Midtown",
+   "new_reply": "Grace, thank you! We're so glad you love our almond croissant, and the Midtown team is delighted to know your order by heart. - Priya, Midtown",
+   "posted_by": "API"
+  },
+  {
+   "our_id": "M15",
+   "location": "Midtown",
+   "reason": "existing reply replaced under rule 1/4c",
+   "old_reply": "Nadia, thank you so much! We've shared your message with Jess, who will be delighted to be called a star. See you again soon at Midtown. - Priya, Midtown",
+   "new_reply": "Nadia, thank you so much! We're thrilled you had the best service you've had anywhere, and we've shared your kind words with the Midtown team. - Priya, Midtown",
+   "posted_by": "API"
+  },
+  {
+   "our_id": "R01",
+   "location": "Riverside",
+   "reason": "existing reply replaced under rule 1/4c",
+   "old_reply": "Thanks Martin - Theo says hi! - Marco, Riverside",
+   "new_reply": "Martin, thank you! We're so glad you enjoyed the river view with a great espresso, and the whole team at Riverside says hi. - Marco, Riverside",
+   "posted_by": "API"
+  }
+ ],
+ "august_comparison": {
+  "month": "2026-08",
+  "previous_report": {
+   "new_reviews": 16,
+   "average_rating": 3.69,
+   "replied": 7
+  },
+  "recomputed": {
+   "by_location": {
+    "Midtown": {
+     "new_reviews": 9,
+     "average_rating": 3.78,
+     "stars_1": 1,
+     "stars_2": 1,
+     "stars_3": 1,
+     "stars_4": 2,
+     "stars_5": 4,
+     "replied": 9,
+     "manual_pending": 0,
+     "reply_rate": 100.0,
+     "flagged_for_owner": 2,
+     "awaiting_owner": 1,
+     "urgent": 1,
+     "removal_requested": 0,
+     "ids": {
+      "new_reviews": [
+       "M01",
+       "M02",
+       "M03",
+       "M04",
+       "M05",
+       "M06",
+       "M07",
+       "M08",
+       "M09"
+      ],
+      "replied": [
+       "M01",
+       "M02",
+       "M03",
+       "M04",
+       "M05",
+       "M06",
+       "M07",
+       "M08",
+       "M09"
+      ],
+      "manual_pending": [],
+      "flagged_for_owner": [
+       "M07",
+       "M09"
+      ],
+      "awaiting_owner": [
+       "M09"
+      ],
+      "urgent": [
+       "M05"
+      ],
+      "removal_requested": [],
+      "stars_1": [
+       "M05"
+      ],
+      "stars_2": [
+       "M03"
+      ],
+      "stars_3": [
+       "M07"
+      ],
+      "stars_4": [
+       "M02",
+       "M09"
+      ],
+      "stars_5": [
+       "M01",
+       "M04",
+       "M06",
+       "M08"
+      ]
+     }
+    },
+    "Riverside": {
+     "new_reviews": 7,
+     "average_rating": 3.57,
+     "stars_1": 1,
+     "stars_2": 1,
+     "stars_3": 1,
+     "stars_4": 1,
+     "stars_5": 3,
+     "replied": 7,
+     "manual_pending": 0,
+     "reply_rate": 100.0,
+     "flagged_for_owner": 2,
+     "awaiting_owner": 0,
+     "urgent": 0,
+     "removal_requested": 0,
+     "ids": {
+      "new_reviews": [
+       "R01",
+       "R02",
+       "R03",
+       "R04",
+       "R05",
+       "R06",
+       "R07"
+      ],
+      "replied": [
+       "R01",
+       "R02",
+       "R03",
+       "R04",
+       "R05",
+       "R06",
+       "R07"
+      ],
+      "manual_pending": [],
+      "flagged_for_owner": [
+       "R04",
+       "R07"
+      ],
+      "awaiting_owner": [],
+      "urgent": [],
+      "removal_requested": [],
+      "stars_1": [
+       "R03"
+      ],
+      "stars_2": [
+       "R07"
+      ],
+      "stars_3": [
+       "R04"
+      ],
+      "stars_4": [
+       "R02"
+      ],
+      "stars_5": [
+       "R01",
+       "R05",
+       "R06"
+      ]
+     }
+    },
+    "Old Town": {
+     "new_reviews": 3,
+     "average_rating": 3.33,
+     "stars_1": 1,
+     "stars_2": 0,
+     "stars_3": 0,
+     "stars_4": 1,
+     "stars_5": 1,
+     "replied": 2,
+     "manual_pending": 0,
+     "reply_rate": 66.7,
+     "flagged_for_owner": 0,
+     "awaiting_owner": 0,
+     "urgent": 1,
+     "removal_requested": 0,
+     "ids": {
+      "new_reviews": [
+       "O01",
+       "O02",
+       "O03"
+      ],
+      "replied": [
+       "O01",
+       "O02"
+      ],
+      "manual_pending": [],
+      "flagged_for_owner": [],
+      "awaiting_owner": [],
+      "urgent": [
+       "O03"
+      ],
+      "removal_requested": [],
+      "stars_1": [
+       "O03"
+      ],
+      "stars_2": [],
+      "stars_3": [],
+      "stars_4": [
+       "O02"
+      ],
+      "stars_5": [
+       "O01"
+      ]
+     }
+    }
+   },
+   "total": {
+    "new_reviews": 19,
+    "average_rating": 3.63,
+    "stars_1": 3,
+    "stars_2": 2,
+    "stars_3": 2,
+    "stars_4": 4,
+    "stars_5": 8,
+    "replied": 18,
+    "manual_pending": 0,
+    "reply_rate": 94.7,
+    "flagged_for_owner": 4,
+    "awaiting_owner": 1,
+    "urgent": 2,
+    "removal_requested": 0,
+    "ids": {
+     "new_reviews": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "O01",
+      "O02",
+      "O03"
+     ],
+     "replied": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "O01",
+      "O02"
+     ],
+     "manual_pending": [],
+     "flagged_for_owner": [
+      "M07",
+      "M09",
+      "R04",
+      "R07"
+     ],
+     "awaiting_owner": [
+      "M09"
+     ],
+     "urgent": [
+      "M05",
+      "O03"
+     ],
+     "removal_requested": [],
+     "stars_1": [
+      "M05",
+      "R03",
+      "O03"
+     ],
+     "stars_2": [
+      "M03",
+      "R07"
+     ],
+     "stars_3": [
+      "M07",
+      "R04"
+     ],
+     "stars_4": [
+      "M02",
+      "M09",
+      "R02",
+      "O02"
+     ],
+     "stars_5": [
+      "M01",
+      "M04",
+      "M06",
+      "M08",
+      "R01",
+      "R05",
+      "R06",
+      "O01"
+     ]
+    }
+   }
+  },
+  "recomputed_api_only": {
+   "new_reviews": 16,
+   "average_rating": 3.69,
+   "replied_at_month_end": 7
+  },
+  "differences": {
+   "new_reviews": {
+    "previous": 16,
+    "recomputed": 19
+   },
+   "average_rating": {
+    "previous": 3.69,
+    "recomputed": 3.63
+   },
+   "replied": {
+    "previous": 7,
+    "recomputed": 18
+   }
+  },
+  "explanation": [
+   "new_reviews: the previous report counted 16 reviews, from the API only (Midtown 9 + Riverside 7 = 16). Section 5 includes all three locations, so Old Town's 3 screenshot reviews are added: 19.",
+   "average_rating: API-only data recomputes to 59/16 = 3.69 (matches the previous report); with Old Town (3.33 avg) it is 3.63.",
+   "replied: 7 API reviews from 2026-08 had an owner reply by 2026-08-31 (M01, M02, M03, M05, R01, R02, R03) - this matches the previous report. Section 5 counts replies visible at report time, which adds the replies posted this run to older unanswered reviews and the Old Town replies confirmed as posted: 18."
+  ]
+ }
+}

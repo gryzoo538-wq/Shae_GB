@@ -1,0 +1,65 @@
+our_id,location,category,flag_priority,issue,reply_needed,notes
+M01,Midtown,already-replied,,,yes,[corrected] existing reply replaced under rule 1/4c
+M02,Midtown,already-replied,,,no,
+M03,Midtown,already-replied,,,no,
+M04,Midtown,reply,,,yes,
+M05,Midtown,urgent,,Hair in quiche (foreign object); reviewer says they were sick all night,no,call manager within 24h; do not reply
+M06,Midtown,reply,,,yes,
+M07,Midtown,owner-reply,normal,3 stars: 'Fine. Nothing special.',yes,"owner decision: reply: thank him, invite him to see the new autumn menu"
+M08,Midtown,reply,,,yes,
+M09,Midtown,reply+flag,normal,Wifi never works,yes,
+M10,Midtown,reply,,,yes,
+M11,Midtown,owner-reply,high,Rude cashier; overcharged $4 and refused to fix it,yes,owner decision: reply: apologise; manager checked till records and will sort it out in person next visit
+M12,Midtown,reply,,,yes,
+M13,Midtown,deleted,,,no,removal reason: Promotes a competitor and contains a link; removed from Google (GET 404 in phase 2)
+M14,Midtown,reply+flag,normal,Very long queue on Saturday,yes,
+M15,Midtown,reply,,,yes,[corrected] existing reply replaced under rule 1/4c
+M16,Midtown,owner-reply,normal,Sticky tables; bathroom out of soap (cleanliness),yes,owner decision: reply: apologise; tables and restrooms now checked every hour
+M17,Midtown,reply,,,yes,
+M18,Midtown,reply,,,yes,owner decision: no reply (superseded by the 2026-10-02 edit)
+M19,Midtown,reply,,,yes,
+M20,Midtown,urgent,,Allergic reaction to a 'nut-free' muffin that contained nuts; went to urgent care,no,call manager within 24h; do not reply
+M21,Midtown,reply,,,yes,
+M22,Midtown,report,,,no,removal reason: Not about our business (describes a hotel)
+M23,Midtown,deleted,,,no,404 on reply; excluded from report
+M24,Midtown,reply+flag,normal,Ran out of oat milk again (stock),yes,
+M25,Midtown,owner-reply,normal,Long wait; staff seemed overwhelmed,yes,owner decision: reply: we've added a person on weekend mornings
+M26,Midtown,reply,,,yes,
+M27,Midtown,reply,,,yes,
+R01,Riverside,already-replied,,,yes,[corrected] existing reply replaced under rule 1/4c
+R02,Riverside,already-replied,,,no,
+R03,Riverside,already-replied,,,no,
+R04,Riverside,owner-reply,normal,Stale scone,yes,owner decision: reply: thank her for the kind words about the team; scones now baked fresh every morning
+R05,Riverside,reply,,,yes,
+R06,Riverside,reply,,,yes,
+R07,Riverside,owner-reply,high,Overpriced for what you get,yes,owner decision: reply: explain we use local organic flour and butter
+R08,Riverside,reply,,,yes,
+R09,Riverside,reply+flag,normal,Parking is a nightmare,yes,
+R10,Riverside,urgent,,Food poisoning after the chicken panini,no,call manager within 24h; do not reply
+R11,Riverside,reply,,,yes,
+R12,Riverside,report,,,no,removal reason: Conflict of interest (owner's family member)
+R13,Riverside,flag-closed,normal,Okay sandwiches; slow wifi,no,owner decision: no reply
+R14,Riverside,reply,,,yes,
+R15,Riverside,deleted,,,no,404 on reply; excluded from report
+R16,Riverside,flag-closed,normal,"1 star, no text",no,owner decision: no reply
+R17,Riverside,reply,,,yes,
+R18,Riverside,urgent,,Piece of plastic in a muffin,no,call manager within 24h; do not reply
+R19,Riverside,reply+flag,normal,Music too loud (noise),yes,
+R20,Riverside,reply+flag,normal,"Review is about our Old Town location, posted on Riverside",yes,about_location=Old Town
+R21,Riverside,reply,,,yes,
+R22,Riverside,owner-reply,normal,Coffee tasted burnt,yes,owner decision: reply: we've recalibrated the espresso machine
+R23,Riverside,reply,,,yes,
+R24,Riverside,report,,,no,"removal reason: Profanity only, no content"
+R25,Riverside,flag,normal,Long wait for a simple order,no,
+O01,Old Town,already-replied,,,no,
+O02,Old Town,reply,,,yes,manual post by owner
+O03,Old Town,urgent,,Cockroach near the counter; dirty floors,no,call manager within 24h; do not reply
+O04,Old Town,reply,,,yes,manual post by owner
+O05,Old Town,urgent,,"Ordered gluten-free, got regular bread; now feeling unwell",no,call manager within 24h; do not reply
+O06,Old Town,reply,,,yes,manual post by owner
+O07,Old Town,owner-reply,normal,Small portions,yes,owner decision: reply: bigger brunch plates are coming in October; manual post by owner
+O08,Old Town,reply,,,yes,manual post by owner
+O09,Old Town,reply+flag,normal,Cash only (payment options),yes,manual post by owner
+O10,Old Town,reply,,,yes,manual post by owner
+O11,Old Town,report,,,no,removal reason: Describes no actual visit
+O12,Old Town,reply,,,yes,manual post by owner

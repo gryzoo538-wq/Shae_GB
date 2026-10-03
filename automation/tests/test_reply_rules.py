@@ -98,6 +98,8 @@ class RuleCase(unittest.TestCase):
                                           reviewer="Carmen Ruiz", text=txt))
         self.assertEqual(detect_language("Me encantó el patio."), "es")
         self.assertEqual(detect_language("Best bakery in Old Town."), "en")
+        self.assertEqual(detect_language("Nice patio."), "en")       # 'patio' is English too
+        self.assertEqual(detect_language("Excelente pan y servicio rápido."), "es")
 
     # 4g sign-off
     def test_4g_signoff(self):
@@ -126,7 +128,9 @@ class RuleCase(unittest.TestCase):
     def test_loads_real_csvs(self):
         root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
         r = ReplyRules.from_csv(os.path.join(root, "staff.csv"), os.path.join(root, "locations.csv"))
-        self.assertTrue(r.may_name("Jess", "Midtown"))
+        self.assertTrue(r.may_name("Lena", "Riverside"))
+        self.assertFalse(r.may_name("Lena", "Midtown"))      # current, but at another location
+        self.assertFalse(r.may_name("Jess", "Midtown"))      # left 2026-10-03 (staff_update.csv)
         self.assertFalse(r.may_name("Omar", "Midtown"))
         self.assertFalse(r.may_name("Theo", "Riverside"))
 

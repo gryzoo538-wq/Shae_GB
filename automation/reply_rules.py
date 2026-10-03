@@ -33,13 +33,14 @@ CONTACT_PATTERNS = [
 ]
 SPANISH_WORDS = {"el", "la", "los", "las", "de", "del", "que", "y", "muy", "es", "con", "por", "para",
                  "una", "un", "gracias", "mejor", "excelente", "pan", "servicio", "rápido", "me",
-                 "encantó", "amables", "zona", "café", "nos", "alegra", "visita", "esperamos", "pronto",
-                 "su", "tu", "tus", "sus", "equipo", "patio", "muchas", "valoración", "estrellas", "en",
+                 "encantó", "amables", "zona", "nuestro", "encanta", "rico", "buen", "bueno", "buena", "nos", "alegra", "visita", "esperamos", "pronto",
+                 "su", "tu", "tus", "sus", "equipo", "muchas", "valoración", "estrellas", "en",
                  "nuestro", "nuestra", "volver", "verte", "le", "les", "al", "lo", "se", "más", "todo"}
 ENGLISH_WORDS = {"the", "and", "is", "was", "a", "an", "to", "of", "for", "with", "thank", "thanks",
                  "you", "your", "we", "our", "it", "in", "on", "but", "so", "best", "great", "good",
                  "love", "loved", "glad", "see", "soon", "this", "that", "my", "i", "here", "were",
-                 "be", "are", "at", "back", "really", "very", "will", "had", "have", "they", "their"}
+                 "be", "are", "at", "back", "really", "very", "will", "had", "have", "they", "their",
+                 "nice", "lovely", "patio", "coffee", "spot", "staff", "food", "bread", "place"}
 # Function and filler words ignored when checking that a reply mentions something specific (4b).
 STOPWORDS = {_w for _w in """
 the and is was a an to of for with thank thanks you your we our it in on but so this that my i here
@@ -230,7 +231,12 @@ def main(argv):
         return 2
     replies_csv, inventory_csv, decisions_csv = argv[:3]
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    rules = ReplyRules.from_csv(os.path.join(root, "staff.csv"), os.path.join(root, "locations.csv"))
+    # Validate against the staff list the delivery was made under, if the folder records one.
+    staff = os.path.join(os.path.dirname(os.path.abspath(replies_csv)), "staff_used.csv")
+    if not os.path.exists(staff):
+        staff = os.path.join(root, "staff.csv")
+    print(f"staff list: {os.path.relpath(staff, root)}")
+    rules = ReplyRules.from_csv(staff, os.path.join(root, "locations.csv"))
     inv = {r["our_id"]: r for r in csv.DictReader(open(inventory_csv, encoding="utf-8"))}
     dec = {r["our_id"]: r for r in csv.DictReader(open(decisions_csv, encoding="utf-8"))}
     replies = list(csv.DictReader(open(replies_csv, encoding="utf-8")))

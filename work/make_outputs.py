@@ -10,7 +10,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from automation.reply_rules import ReplyRules, detect_language  # noqa: E402
 
-FLAG_CATS = {"flag", "reply+flag"}
+FLAG_CATS = {"flag", "reply+flag", "owner-reply", "flag-closed"}
 LANG = {"en": "English", "es": "Spanish", None: "none (star-only)"}
 
 

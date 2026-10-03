@@ -1,0 +1,10 @@
+first_name,location,status,public_mention_consent
+Priya,Midtown,current (manager),yes
+Jess,Midtown,current,yes
+Omar,Midtown,current,no
+Marco,Riverside,current (manager),yes
+Lena,Riverside,current,yes
+Theo,Riverside,former (left 2026-09-10),no
+Hannah,Old Town,current (manager),yes
+Rosa,Old Town,current,yes
+Dev,Old Town,current,yes

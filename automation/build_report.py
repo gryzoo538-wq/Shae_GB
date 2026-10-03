@@ -28,6 +28,14 @@ def load_csv(path):
         return list(csv.DictReader(f))
 
 
+def snapshot_state(path):
+    """Same shape as live_state, from a saved {location: [reviews]} JSON (e.g. api_snapshot.json)."""
+    with open(path, encoding="utf-8") as f:
+        raw = json.load(f)
+    return {r["reviewId"]: {"stars": stars_of(r), "reply": (r.get("reviewReply") or {}).get("comment")}
+            for reviews in raw.values() for r in reviews}
+
+
 def live_state(client, locations):
     """{review_id: {'stars': int, 'reply': str|None}} for every API-connected location."""
     state = {}
@@ -126,7 +134,7 @@ def august_comparison(inventory, decisions, replies, live, old_town_posted, prev
             f"({', '.join(replied_at_month_end)})"
             + (" - this matches the previous report" if len(replied_at_month_end) == previous.get("replied") else "")
             + f". Section 5 counts replies visible at report time, which adds the replies posted this run to "
-              f"older unanswered reviews and Old Town's owner reply: {t['replied']}.")
+              f"older unanswered reviews and the Old Town replies confirmed as posted: {t['replied']}.")
     return {"month": month, "previous_report": {k: previous.get(k) for k in ("new_reviews", "average_rating", "replied")},
             "recomputed": full, "recomputed_api_only": {"new_reviews": api_n, "average_rating": api_avg,
                                                         "replied_at_month_end": len(replied_at_month_end)},
@@ -253,15 +261,26 @@ ul{{padding-left:20px}} li{{margin:4px 0}}
 </main></body></html>"""
 
 
+def _old_reply(oid, post_log, baseline_inventory, inv):
+    """Text the correction replaced: our own earlier post if we posted twice, else the pre-existing reply."""
+    posted = [r["reply_text"] for r in post_log if r["our_id"] == oid and r["result"] == "posted"]
+    if len(posted) >= 2:
+        return posted[-2]
+    base = {r["our_id"]: r for r in (baseline_inventory or [])}.get(oid, {})
+    return base.get("existing_reply") or inv[oid]["existing_reply"]
+
+
 def build(out_dir, month="2026-09", root=".", old_town_posted=(), baseline_inventory=None, client=None,
-          generated_at=None):
+          generated_at=None, snapshot=None):
     import datetime as dt
     inventory = load_csv(os.path.join(out_dir, "review_inventory.csv"))
     decisions = load_csv(os.path.join(out_dir, "decisions.csv"))
     replies = load_csv(os.path.join(out_dir, "replies.csv"))
+    log_path = os.path.join(out_dir, "post_log.csv")
+    post_log = load_csv(log_path) if os.path.exists(log_path) else []
     locations = load_csv(os.path.join(root, "locations.csv"))
     previous = json.load(open(os.path.join(root, "august_report.json"), encoding="utf-8"))
-    live = live_state(client or GBPClient(), locations)
+    live = snapshot_state(snapshot) if snapshot else live_state(client or GBPClient(), locations)
     posted = set(old_town_posted)
     rep = compute(month, inventory, decisions, replies, live, posted)
     inv = {r["our_id"]: r for r in inventory}
@@ -279,8 +298,7 @@ def build(out_dir, month="2026-09", root=".", old_town_posted=(), baseline_inven
                             for d in decisions if d["category"] == "deleted"],
         "reply_corrections": [{"our_id": d["our_id"], "location": d["location"],
                                "reason": d["notes"].split("[corrected]", 1)[1].split(";")[0].strip() or "rule 1/4c",
-                               "old_reply": (baseline_inventory and {r["our_id"]: r for r in baseline_inventory}.get(d["our_id"], {}).get("existing_reply"))
-                                            or inv[d["our_id"]]["existing_reply"],
+                               "old_reply": _old_reply(d["our_id"], post_log, baseline_inventory, inv),
                                "new_reply": reply_text.get(d["our_id"], ""),
                                "posted_by": "owner (manual)" if d["location"] == "Old Town" else "API"}
                               for d in decisions if "[corrected]" in d["notes"]],
@@ -302,9 +320,11 @@ def main(argv=None):
     ap.add_argument("--old-town-posted", default="", help="comma-separated Old Town our_ids the owner confirmed")
     ap.add_argument("--baseline-inventory", help="inventory captured before this run's posting (for August replied)")
     ap.add_argument("--base-url", default="http://127.0.0.1:8765")
+    ap.add_argument("--snapshot", help="use a saved API listing instead of fetching live state")
     a = ap.parse_args(argv)
     base = load_csv(a.baseline_inventory) if a.baseline_inventory else None
-    rep = build(a.dir, a.month, a.root, [x for x in a.old_town_posted.split(",") if x], base, GBPClient(a.base_url))
+    rep = build(a.dir, a.month, a.root, [x for x in a.old_town_posted.split(",") if x], base, GBPClient(a.base_url),
+                snapshot=a.snapshot)
     for loc in LOCATIONS + ["total"]:
         d = rep["total"] if loc == "total" else rep["by_location"][loc]
         print(f"{loc:10} new={d['new_reviews']} avg={d['average_rating']} replied={d['replied']} "

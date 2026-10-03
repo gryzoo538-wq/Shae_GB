@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.join(ROOT, "work"))
 
 CFG = {
     "phase1": dict(date="2026-10-01", deadline="2026-10-02"),
-    "final": dict(date="2026-10-02", deadline="2026-10-03"),
+    "final": dict(date="2026-10-04", deadline="2026-10-02 (raised in our first digest; your email did not confirm the calls, so please confirm or call today)"),
 }
 
 
@@ -48,7 +48,9 @@ def main(phase):
           "Old Town is not connected to the API, so these replies are for the owner to paste into Google "
           "Business Profile. Each one passed reply_rules.py (playbook section 4).\n",
           "Once you've posted them, tell us which ones went up so the report can move them from *manual pending* to *replied*.\n"]
-    new_ot = [d for d in dec if d["location"] == "Old Town" and d["our_id"] in rep and "[corrected]" not in d["notes"]]
+    new_ot = [d for d in dec if d["location"] == "Old Town" and d["our_id"] in rep and "[corrected]" not in d["notes"]
+              and not T[d["our_id"]].get("ot_status", "").startswith("posted")]
+    done_ot = [d for d in dec if T[d["our_id"]].get("ot_status", "").startswith("posted")]
     corr_ot = [d for d in dec if d["location"] == "Old Town" and "[corrected]" in d["notes"]]
     ot.append("## New replies\n")
     for d in new_ot:
@@ -58,6 +60,14 @@ def main(phase):
         ot.append(f"> {r['text'] or '(stars only, no text)'}\n")
         ot.append(f"Reply to post ({rep[d['our_id']]['language']}, {rep[d['our_id']]['char_count']} chars):\n")
         ot.append(f"```\n{rep[d['our_id']]['reply_text']}\n```\n")
+    if not new_ot:
+        ot.append("None.\n")
+    if done_ot:
+        ot.append("## Already posted by you (confirmed 2026-10-03)\n")
+        ot.append("No action needed. Listed so you can check them against Google:\n")
+        for d in done_ot:
+            ot.append(f"- {head(d['our_id'])}: `{rep[d['our_id']]['reply_text']}`")
+        ot.append("")
     ot.append("## Existing Old Town replies to correct\n")
     if corr_ot:
         for d in corr_ot:
@@ -68,9 +78,9 @@ def main(phase):
     else:
         ot.append("None. The only existing Old Town reply (O01, Isabel Moreau: \"Thank you Isabel! - Hannah, Old Town\") "
                   "names no one who may not be named.\n")
-    ot.append("## Old Town reviews with no reply\n")
+    ot.append("## Old Town reviews we are not replying to\n")
     for d in dec:
-        if d["location"] == "Old Town" and d["our_id"] not in rep:
+        if d["location"] == "Old Town" and d["our_id"] not in rep and d["category"] != "already-replied":
             ot.append(f"- {head(d['our_id'])}: {d['category']}" + (f" ({d['issue']})" if d['issue'] else ""))
     with open(os.path.join(out, "old_town_replies.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(ot) + "\n")
@@ -92,7 +102,7 @@ def main(phase):
     g.append("Tell us *reply* (with any points to include) or *no reply* for each. Reviews marked reply+flag "
              "already have a public reply; the flag is the operational issue.\n")
     for pri in ("high", "normal"):
-        items = [d for d in dec if d["flag_priority"] == pri]
+        items = [d for d in dec if d["flag_priority"] == pri and d["category"] in ("flag", "reply+flag")]
         g.append(f"### Priority: {pri} ({len(items)})\n")
         for d in items:
             r = inv[d["our_id"]]
@@ -114,7 +124,8 @@ def main(phase):
     for d in corr:
         r = inv[d["our_id"]]
         how = "posted via the API" if d["location"] != "Old Town" else "for you to edit by hand (see old_town_replies.md)"
-        old = T[d["our_id"]].get("old_reply") or r["existing_reply"]
+        base = {x["our_id"]: x for x in load(os.path.join(ROOT, "output", "phase1", "review_inventory.csv"))}
+        old = T[d["our_id"]].get("old_reply") or base.get(d["our_id"], {}).get("existing_reply") or r["existing_reply"]
         g.append(f"- {head(d['our_id'])} ({how})  \n  Why: {T[d['our_id']].get('odd', '')}  \n"
                  f"  Was: \"{old}\"  \n  Now: \"{rep[d['our_id']]['reply_text']}\"")
     g.append("\n## 5. Other notes\n")
@@ -124,7 +135,7 @@ def main(phase):
     for line in extra.get("notes", []):
         g.append(f"- {line}")
     n_ot = len(new_ot)
-    g.append(f"- {n_ot} Old Town replies are ready for you to post by hand: see `old_town_replies.md`.")
+    g.append(f"- {n_ot} Old Town {'reply is' if n_ot == 1 else 'replies are'} ready for you to post by hand: see `old_town_replies.md`.")
     with open(os.path.join(out, "owner_digest.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(g) + "\n")
     print(f"docs -> {out}: {len(rem)} removal requests, {n_ot} Old Town replies")

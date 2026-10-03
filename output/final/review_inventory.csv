@@ -1,0 +1,65 @@
+our_id,source,location,review_id,reviewer,stars,create_date,update_date,text,existing_reply,existing_reply_date
+M01,api,Midtown,AbFvOqqSyY3v6ysjB6f2RsD_LHZg8Rak,Grace Holloway,5,2026-08-03,,Best almond croissant in the city. Jess remembered my order!,"Thank you Grace! Jess will be thrilled. - Priya, Midtown",2026-08-04
+M02,api,Midtown,AbFvOqxPcTM-82aLz4EJqqeJJA8AP2PL,Tomasz Wiecek,4,2026-08-05,,"Good coffee, a bit pricey.","Thanks Tomasz, glad you enjoyed the coffee! - Priya, Midtown",2026-08-06
+M03,api,Midtown,AbFvOqk9urPMvN_aVBZcLKSEXV5poApu,Ben Okoro,2,2026-08-09,,Waited 25 minutes for two lattes.,"Sorry for the wait, Ben. We've added a second barista on weekends. - Priya, Midtown",2026-08-10
+M04,api,Midtown,AbFvOqY5VgvWMggwMDSByY7bBm3cZao6,Lucia Fernandes,5,2026-08-12,,,"Lucia, thank you so much for the five-star rating! We're delighted you enjoyed your visit to Lantern & Loaf Midtown and hope to see you again soon. - Priya, Midtown",2026-10-03
+M05,api,Midtown,AbFvOqCwMqNHzR5fYiY_jS2fGoy24Z8U,Derek Pruitt,1,2026-08-15,2026-09-03,Found a hair in my quiche. Disgusting. UPDATE: I was sick all night after eating it.,"We're sorry, Derek. We've reviewed our kitchen procedures. - Priya, Midtown",2026-08-16
+M06,api,Midtown,AbFvOqqZ-KXTvkFVuWVM4FrKxvVgLxDF,Ayesha Raman,5,2026-08-18,,Lovely staff and such cozy seating. My new favourite spot to read.,"Ayesha, thank you! We're so happy our cozy seating has become your favourite reading spot, and we'll pass your kind words on to the team at Midtown. - Priya, Midtown",2026-10-03
+M07,api,Midtown,AbFvOqbCRypY5SfscKD-rC4hX6PJxnJr,Chris Daley,3,2026-08-22,,Fine. Nothing special.,,
+M08,api,Midtown,AbFvOqGLdZKD7cUKfq7LjfhvxWgTUgb_,Hiro Tanaka,5,2026-08-27,,Omar made the best flat white I've had in years.,"Hiro, thank you! We're thrilled you loved your flat white - the team takes real pride in every cup we pour at Midtown. - Priya, Midtown",2026-10-03
+M09,api,Midtown,AbFvOqa5kMrh8XMFhTi3m8iZE332Yvot,Sandra Kim,4,2026-08-30,,Great pastries but the wifi never works.,"Sandra, thank you for the kind words about our pastries! We're sorry the wifi let you down, and we're looking into it at Midtown. - Priya, Midtown",2026-10-03
+M10,api,Midtown,AbFvOqZmwtT6hS2vwUXsMo7Agm2SWtTf,Jonas Weber,5,2026-09-01,,Perfect sourdough. Will be back!,"Jonas, thank you! We're so glad you loved our sourdough, and we can't wait to welcome you back to Midtown. - Priya, Midtown",2026-10-03
+M11,api,Midtown,AbFvOqsu4YYTsYy6cY6M88veZXjKjLN6,Melissa Grant,1,2026-09-02,,"Rude cashier, overcharged me $4 and refused to fix it.",,
+M12,api,Midtown,AbFvOqUvFxtxcLq2ojtcVqm28rTxBNLo,Carmen Ruiz,5,2026-09-03,,¡El mejor café de la zona! Muy amables.,"Carmen, ¡muchas gracias! Nos alegra mucho que te guste nuestro café y que el equipo haya sido tan amable contigo. ¡Te esperamos pronto en Midtown! - Priya, Midtown",2026-10-03
+M13,api,Midtown,AbFvOqsMQzuMrwCgQLD_JHWMgNmCcfYa,Local Foodie 99,1,2026-09-05,,"This place is a scam, go to Brew Haven on 5th instead, much better!! www.brewhaven.test",,
+M14,api,Midtown,AbFvOqEoPRw_ZAYbT7c8Hv6mZCmqVGUk,Paul Lindqvist,4,2026-09-06,,Nice cinnamon rolls. The line was really long on Saturday though.,"Paul, thank you for the kind words about our cinnamon rolls! Sorry about the long line on Saturday - we've shared it with the Midtown team. - Priya, Midtown",2026-10-03
+M15,api,Midtown,AbFvOqoUY5Jcc5nskZfKLpangNJpFY5_,Nadia Petrova,5,2026-09-08,,Jess is a star - best service I've had anywhere.,"Nadia, thank you so much! We've shared your message with Jess, who will be delighted to be called a star. See you again soon at Midtown. - Priya, Midtown",2026-10-03
+M16,api,Midtown,AbFvOqaGWn-qkKWr9_naddQhUgwaa7-L,Owen Mercer,2,2026-09-09,,Tables were sticky and the bathroom was out of soap.,,
+M17,api,Midtown,AbFvOqSyVhScBWVhUKgBHtqeRUC3J5bA,K. W.,5,2026-09-11,,,"Thank you so much for the five-star rating! It means a lot to everyone at Lantern & Loaf Midtown, and we hope to see you again soon. - Priya, Midtown",2026-10-03
+M18,api,Midtown,AbFvOqmTRg3CRhT7KxUUhpgjs8p9y_HB,Rachel Adeyemi,5,2026-09-12,2026-10-02,Came back and the coffee was hot this time. Much better!,,
+M19,api,Midtown,AbFvOqkwXqUxjBfYZuy5oJCASmfu-G9u,Felix Brandt,5,2026-09-14,,"Came for the matcha, stayed for the vibe.","Felix, thank you! We're glad the matcha brought you in and the vibe made you stay - come and relax with us at Midtown anytime. - Priya, Midtown",2026-10-03
+M20,api,Midtown,AbFvOqAd24dpnvwrsg7-6agbu7xN_Uf6,Tara Quinn,1,2026-09-15,,I had an allergic reaction - the 'nut-free' muffin clearly had nuts in it. Ended up in urgent care.,,
+M21,api,Midtown,AbFvOqV6Av2doUs2g-VKLgvm9hXkKdok,Victor Osei,4,2026-09-18,,Solid breakfast spot.,"Victor, thank you! We're happy Midtown has become a solid breakfast spot for you, and we look forward to serving you again. - Priya, Midtown",2026-10-03
+M22,api,Midtown,AbFvOqExQT5F3EtBXxdEbvhDH6HQqs5H,Elaine Brooks,5,2026-09-20,,"Wonderful stay, the room service was amazing and the pool is great!",,
+M23,api,Midtown,AbFvOqUw-eKMqMc4LEqPCmGtayETDnnH,Simone Laurent,5,2026-09-22,,Ordered the seasonal pumpkin loaf - so moist!,,
+M24,api,Midtown,AbFvOq9qJAdFWuphhYsZ-DJvUKnruiU-,Greg Malone,4,2026-09-25,,"Good, but they ran out of oat milk again.","Greg, thank you for visiting, and sorry we ran out of oat milk again. We've passed this on so the Midtown team can keep it in stock. - Priya, Midtown",2026-10-03
+M25,api,Midtown,AbFvOqqQSEmRS6zUjJ4R8ZfyaMJwBsXF,Ivy Chen,2,2026-09-27,,Waited ages and the staff seemed totally overwhelmed.,,
+M26,api,Midtown,AbFvOqCF8HipfRa9fgWG3jBkxaD7Kdu3,Andre Silva,5,2026-09-29,,Their chai is incredible and Omar is so friendly.,"Andre, thank you! We're so glad you love our chai, and we'll pass your kind words on to the friendly team at Midtown. - Priya, Midtown",2026-10-03
+M27,api,Midtown,AbFvOq_mor88GZG5ENPWZMf_uyzFRbkf,Hugo Lambert,5,2026-09-30,,"Great carrot cake, friendly team.",,
+R01,api,Riverside,AbFvOqHF-th5PJvqaY6RUXqwY3aaJx6Y,Martin Cole,5,2026-08-02,,River view and a great espresso.,"Martin, thank you! We're so glad you enjoyed the river view with a great espresso, and the whole team at Riverside says hi. - Marco, Riverside",2026-10-03
+R02,api,Riverside,AbFvOqd7ZjConPyMbEGCCMNNCh9gtzYA,Julia Novak,4,2026-08-06,,Nice patio.,"Thank you Julia! See you on the patio soon. - Marco, Riverside",2026-08-07
+R03,api,Riverside,AbFvOq-dWffGNKsLEZ8a89gKmSHT5LzU,Sam Whitfield,1,2026-08-10,,Closed 30 minutes before the posted hours.,"Sorry Sam, our hours are now updated. - Marco, Riverside",2026-08-11
+R04,api,Riverside,AbFvOq_CYzZWDvBufg7KH3tWUfuRxLCN,Leah Morgan,3,2026-08-14,,Theo was helpful but the scone was stale.,,
+R05,api,Riverside,AbFvOqnQtFqb-wZuVMfZUExwfL2RMuPC,Daniel Park,5,2026-08-19,,Lena made my kid's day with a cookie!,"Daniel, thank you! We've shared this with Lena, and we're so glad the cookie made your kid's day. See you both soon at Riverside. - Marco, Riverside",2026-10-03
+R06,api,Riverside,AbFvOqdxTAfDe2ucLCCm66jnYGwER_4h,Olga Ivanova,5,2026-08-24,,Theo is the best barista!,"Olga, thank you so much! We're delighted you enjoyed your coffee from our baristas, and we'll share your kind words with the Riverside team. - Marco, Riverside",2026-10-03
+R07,api,Riverside,AbFvOqDuRsDhb3DDS6ceVrD9CNMvirbN,Peter Huang,2,2026-08-28,,Overpriced for what you get.,,
+R08,api,Riverside,AbFvOqFW3GFk-LpE7xPqBekYhdn2ajrJ,Mateo Alvarez,5,2026-09-01,,Excelente pan y servicio rápido.,"Mateo, ¡muchas gracias! Nos alegra que disfrutaras de nuestro pan y del servicio rápido. ¡Esperamos verte pronto en Riverside! - Marco, Riverside",2026-10-03
+R09,api,Riverside,AbFvOq-zVve_5QmHJVgF22S5bWJJkFgR,Hannah Fisher,4,2026-09-02,,Great coffee. Parking is a nightmare though.,"Hannah, thank you for the kind words about our coffee! We're sorry parking was such a hassle, and we've passed this on to the Riverside team. - Marco, Riverside",2026-10-03
+R10,api,Riverside,AbFvOq4dntRTDhvRDwN3U9Z9GEc2Waz2,Kevin Doyle,1,2026-09-04,,Got food poisoning after the chicken panini.,,
+R11,api,Riverside,AbFvOq_UszJnBeK5vs3BxDvdTG44amJW,Mei Lin,5,2026-09-06,,,"Mei, thank you for the five-star rating! We're so glad you enjoyed your visit to Riverside and hope to welcome you back soon. - Marco, Riverside",2026-10-03
+R12,api,Riverside,AbFvOqLJShuWUCEkzymBBHDJ5Yd8SqBQ,Tony Bellini,5,2026-09-07,,I'm the owner's cousin and honestly this is the best bakery ever!!,,
+R13,api,Riverside,AbFvOqJZNXYALoq5LxGTjpLrwKezd3dH,Craig Summers,3,2026-09-10,,"Okay sandwiches, slow wifi.",,
+R14,api,Riverside,AbFvOqe-QfpdLeD2tLkghpAGJ57cuDPA,Beatriz Costa,4,2026-09-12,,"Lovely staff, good scones.","Beatriz, thank you! We're so glad you enjoyed our scones, and we'll pass your kind words on to the Riverside team. - Marco, Riverside",2026-10-03
+R15,api,Riverside,AbFvOqRgw9YbfPNT5NVmjYzz3RZY4R5t,Liam Walsh,5,2026-09-13,,Best bakery on the river!,,
+R16,api,Riverside,AbFvOqhbYKK6RhaCGLbGzwU_-N34zWgu,A Google User,1,2026-09-16,,,,
+R17,api,Riverside,AbFvOqqF4NavAGipoqM5aBWuBqViaigk,Noah Becker,5,2026-09-17,,The team here runs a tight ship. Always fast.,"Noah, thank you! The Riverside team works hard to keep things fast, so hearing we run a tight ship means a lot. - Marco, Riverside",2026-10-03
+R18,api,Riverside,AbFvOqbe35ovmtDkK4cZoBu2jPUUEBF2,Fatima Noor,2,2026-09-19,,Found a piece of plastic in my muffin.,,
+R19,api,Riverside,AbFvOqo8zwcVATwRECzFtV_Yv46ypqmP,George Mills,4,2026-09-21,,"Good coffee, but the music was way too loud.","George, thank you for the kind words about our coffee! Sorry the music was too loud - we've asked the Riverside team to keep the volume down. - Marco, Riverside",2026-10-03
+R20,api,Riverside,AbFvOqF_HRX3kdbAtaaMzsj_P-uqWaWG,Clara Jensen,5,2026-09-23,,Visited your Old Town shop last weekend - loved the courtyard!,"Clara, thank you! We're so glad you loved the courtyard at our Old Town shop, and we'll share your words with the team there. We'd love to see you at Riverside too. - Marco, Riverside",2026-10-03
+R21,api,Riverside,AbFvOqvwZR9GPUV4T4qE_LErc2MQsEnn,Sophie Durand,5,2026-09-24,,Ana at the counter was so sweet.,"Sophie, thank you! We're so glad the team at the counter made your visit so sweet, and we hope to see you again at Riverside soon. - Marco, Riverside",2026-10-03
+R22,api,Riverside,AbFvOq9kxccQdgjp_RVcTFp9XMcBKHUn,Marcus Bell,3,2026-09-26,,"Croissant was good, coffee tasted burnt.",,
+R23,api,Riverside,AbFvOqnMdNWpGs3vXxEDhJ6jEWN7fsa_,Erin Walsh,5,2026-09-28,,Loved the pumpkin loaf.,"Erin, thank you! We're so happy you loved our pumpkin loaf, and we hope you'll stop by Riverside for another slice soon. - Marco, Riverside",2026-10-03
+R24,api,Riverside,AbFvOqq64g6GANuLHFXKZqzGnzeyW524,xX_angry_Xx,1,2026-09-30,,"f*** this place, worst ****",,
+R25,api,Riverside,AbFvOqHpZJuAhaXyEhzxwUBH4gYzyN-X,Paula Reyes,2,2026-09-29,,Long wait for a simple order.,,
+O01,screenshot,Old Town,,Isabel Moreau,5,2026-08-08,,The courtyard is magical.,"Thank you Isabel! - Hannah, Old Town",
+O02,screenshot,Old Town,,Ravi Menon,4,2026-08-21,,Rosa recommended the rye - delicious.,"Ravi, thank you! We've passed your compliment on to Rosa, and we're so glad the rye was delicious. See you soon in Old Town. - Hannah, Old Town",2026-10-03
+O03,screenshot,Old Town,,Gwen Harper,1,2026-08-29,,Dirty floors and a cockroach near the counter.,,
+O04,screenshot,Old Town,,Luis Ortega,5,2026-09-03,,Dev's latte art is on another level.,"Luis, thank you! Dev will be thrilled to hear the latte art impressed you, and we hope to see you back in Old Town soon. - Hannah, Old Town",2026-10-03
+O05,screenshot,Old Town,,Anna Schultz,2,2026-09-06,,"Ordered gluten-free but got regular bread, now feeling awful.",,
+O06,screenshot,Old Town,,J. P.,5,2026-09-09,,,"Thank you for the five-star rating! It means so much to everyone at Lantern & Loaf Old Town, and we hope to see you again soon. - Hannah, Old Town",2026-10-03
+O07,screenshot,Old Town,,Megan Riley,3,2026-09-12,,"Cute spot, small portions.",,
+O08,screenshot,Old Town,,Elena García,5,2026-09-15,,Me encantó el patio.,"Elena, ¡muchas gracias! Nos alegra mucho que te encantara nuestro patio. ¡Te esperamos pronto en Old Town! - Hannah, Old Town",2026-10-03
+O09,screenshot,Old Town,,Robert King,4,2026-09-18,,"Great bread, but cash only was annoying.","Robert, thank you for the kind words about our bread! Sorry the cash-only payment was a hassle - we've shared your feedback with the Old Town team. - Hannah, Old Town",2026-10-03
+O10,screenshot,Old Town,,Zoe Turner,5,2026-09-22,,Best bakery in Old Town.,"Zoe, thank you so much! We're honoured you think we're the best bakery in Old Town and can't wait to welcome you back. - Hannah, Old Town",2026-10-03
+O11,screenshot,Old Town,,Darren Pike,1,2026-09-25,,Never been here but I've heard bad things.,,
+O12,screenshot,Old Town,,Amara Okafor,4,2026-09-30,,"Lovely, will come back.","Amara, thank you! We're so glad you had a lovely time, and we'll be happy to see you come back to Old Town soon. - Hannah, Old Town",2026-10-03

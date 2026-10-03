@@ -1,0 +1,44 @@
+our_id,location,reply_text,char_count,language,names_used
+M01,Midtown,"Grace, thank you! We're so glad you love our almond croissant, and the Midtown team is delighted to know your order by heart. - Priya, Midtown",142,en,Priya
+M04,Midtown,"Lucia, thank you so much for the five-star rating! We're delighted you enjoyed your visit to Lantern & Loaf Midtown and hope to see you again soon. - Priya, Midtown",164,en,Priya
+M06,Midtown,"Ayesha, thank you! We're so happy our cozy seating has become your favourite reading spot, and we'll pass your kind words on to the team at Midtown. - Priya, Midtown",165,en,Priya
+M07,Midtown,"Chris, thank you for the honest feedback! We'd love to turn 'nothing special' into something special - come and see our new autumn menu at Midtown. - Priya, Midtown",164,en,Priya
+M08,Midtown,"Hiro, thank you! We're thrilled you loved your flat white - the team takes real pride in every cup we pour at Midtown. - Priya, Midtown",135,en,Priya
+M09,Midtown,"Sandra, thank you for the kind words about our pastries! We're sorry the wifi let you down, and we're looking into it at Midtown. - Priya, Midtown",146,en,Priya
+M10,Midtown,"Jonas, thank you! We're so glad you loved our sourdough, and we can't wait to welcome you back to Midtown. - Priya, Midtown",123,en,Priya
+M11,Midtown,"Melissa, we're sorry about your experience with our cashier. I've checked the till records and would like to sort this out with you in person on your next visit to Midtown. - Priya, Midtown",189,en,Priya
+M12,Midtown,"Carmen, ¡muchas gracias! Nos alegra mucho que te guste nuestro café y que el equipo haya sido tan amable contigo. ¡Te esperamos pronto en Midtown! - Priya, Midtown",163,es,Priya
+M14,Midtown,"Paul, thank you for the kind words about our cinnamon rolls! Sorry about the long line on Saturday - we've shared it with the Midtown team. - Priya, Midtown",156,en,Priya
+M15,Midtown,"Nadia, thank you so much! We're thrilled you had the best service you've had anywhere, and we've shared your kind words with the Midtown team. - Priya, Midtown",159,en,Priya
+M16,Midtown,"Owen, we're sorry the tables were sticky and the bathroom was out of soap. Our tables and restrooms are now checked every hour at Midtown. - Priya, Midtown",155,en,Priya
+M17,Midtown,"Thank you so much for the five-star rating! It means a lot to everyone at Lantern & Loaf Midtown, and we hope to see you again soon. - Priya, Midtown",149,en,Priya
+M18,Midtown,"Rachel, thank you for coming back and for updating your review! We're so glad your coffee was hot this time. See you again soon at Midtown. - Priya, Midtown",156,en,Priya
+M19,Midtown,"Felix, thank you! We're glad the matcha brought you in and the vibe made you stay - come and relax with us at Midtown anytime. - Priya, Midtown",143,en,Priya
+M21,Midtown,"Victor, thank you! We're happy Midtown has become a solid breakfast spot for you, and we look forward to serving you again. - Priya, Midtown",140,en,Priya
+M24,Midtown,"Greg, thank you for visiting, and sorry we ran out of oat milk again. We've passed this on so the Midtown team can keep it in stock. - Priya, Midtown",149,en,Priya
+M25,Midtown,"Ivy, we're sorry you waited so long and that the team felt stretched. We've added an extra person on weekend mornings at Midtown to keep things moving. - Priya, Midtown",168,en,Priya
+M26,Midtown,"Andre, thank you! We're so glad you love our chai, and we'll pass your kind words on to the friendly team at Midtown. - Priya, Midtown",134,en,Priya
+M27,Midtown,"Hugo, thank you! We're so glad you enjoyed the carrot cake, and we'll pass your kind words on to our friendly crew at Midtown. - Priya, Midtown",143,en,Priya
+R01,Riverside,"Martin, thank you! We're so glad you enjoyed the river view with a great espresso, and the whole team at Riverside says hi. - Marco, Riverside",142,en,Marco
+R04,Riverside,"Leah, thank you for the kind words about our team! We're sorry your scone was stale - our scones are now baked fresh every morning at Riverside. - Marco, Riverside",163,en,Marco
+R05,Riverside,"Daniel, thank you! We've shared this with Lena, and we're so glad the cookie made your kid's day. See you both soon at Riverside. - Marco, Riverside",148,en,Lena;Marco
+R06,Riverside,"Olga, thank you so much! We're delighted you enjoyed your coffee from our baristas, and we'll share your kind words with the Riverside team. - Marco, Riverside",159,en,Marco
+R07,Riverside,"Peter, thank you for the feedback, and we're sorry it felt overpriced. We bake with local organic flour and butter at Riverside, and we hope that shows in every bite. - Marco, Riverside",185,en,Marco
+R08,Riverside,"Mateo, ¡muchas gracias! Nos alegra que disfrutaras de nuestro pan y del servicio rápido. ¡Esperamos verte pronto en Riverside! - Marco, Riverside",145,es,Marco
+R09,Riverside,"Hannah, thank you for the kind words about our coffee! We're sorry parking was such a hassle, and we've passed this on to the Riverside team. - Marco, Riverside",160,en,Marco
+R11,Riverside,"Mei, thank you for the five-star rating! We're so glad you enjoyed your visit to Riverside and hope to welcome you back soon. - Marco, Riverside",144,en,Marco
+R14,Riverside,"Beatriz, thank you! We're so glad you enjoyed our scones, and we'll pass your kind words on to the Riverside team. - Marco, Riverside",133,en,Marco
+R17,Riverside,"Noah, thank you! The Riverside team works hard to keep things fast, so hearing we run a tight ship means a lot. - Marco, Riverside",130,en,Marco
+R19,Riverside,"George, thank you for the kind words about our coffee! Sorry the music was too loud - we've asked the Riverside team to keep the volume down. - Marco, Riverside",160,en,Marco
+R20,Riverside,"Clara, thank you! We're so glad you loved the courtyard at our Old Town shop, and we'll share your words with the team there. We'd love to see you at Riverside too. - Marco, Riverside",183,en,Marco
+R21,Riverside,"Sophie, thank you! We're so glad the team at the counter made your visit so sweet, and we hope to see you again at Riverside soon. - Marco, Riverside",149,en,Marco
+R22,Riverside,"Marcus, thank you for the kind words about our croissant, and sorry the coffee tasted burnt. We've recalibrated the espresso machine at Riverside. - Marco, Riverside",165,en,Marco
+R23,Riverside,"Erin, thank you! We're so happy you loved our pumpkin loaf, and we hope you'll stop by Riverside for another slice soon. - Marco, Riverside",139,en,Marco
+O02,Old Town,"Ravi, thank you! We've passed your compliment on to Rosa, and we're so glad the rye was delicious. See you soon in Old Town. - Hannah, Old Town",143,en,Hannah;Rosa
+O04,Old Town,"Luis, thank you! Dev will be thrilled to hear the latte art impressed you, and we hope to see you back in Old Town soon. - Hannah, Old Town",139,en,Dev;Hannah
+O06,Old Town,"Thank you for the five-star rating! It means so much to everyone at Lantern & Loaf Old Town, and we hope to see you again soon. - Hannah, Old Town",146,en,Hannah
+O07,Old Town,"Megan, thank you for calling us a cute spot! We hear you on the small portions, and bigger brunch plates are coming to Old Town in October. - Hannah, Old Town",158,en,Hannah
+O08,Old Town,"Elena, ¡muchas gracias! Nos alegra mucho que te encantara nuestro patio. ¡Te esperamos pronto en Old Town! - Hannah, Old Town",125,es,Hannah
+O09,Old Town,"Robert, thank you for the kind words about our bread! Sorry the cash-only payment was a hassle - we've shared your feedback with the Old Town team. - Hannah, Old Town",166,en,Hannah
+O10,Old Town,"Zoe, thank you so much! We're honoured you think we're the best bakery in Old Town and can't wait to welcome you back. - Hannah, Old Town",137,en,Hannah
+O12,Old Town,"Amara, thank you! We're so glad you had a lovely time, and we'll be happy to see you come back to Old Town soon. - Hannah, Old Town",131,en,Hannah
