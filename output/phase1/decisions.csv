@@ -1,0 +1,63 @@
+our_id,location,category,flag_priority,issue,reply_needed,notes
+M01,Midtown,already-replied,,,no,
+M02,Midtown,already-replied,,,no,
+M03,Midtown,already-replied,,,no,
+M04,Midtown,reply,,,yes,
+M05,Midtown,urgent,,Hair in quiche (foreign object); reviewer says they were sick all night,no,call manager within 24h; do not reply
+M06,Midtown,reply,,,yes,
+M07,Midtown,flag,normal,3 stars: 'Fine. Nothing special.',no,
+M08,Midtown,reply,,,yes,
+M09,Midtown,reply+flag,normal,Wifi never works,yes,
+M10,Midtown,reply,,,yes,
+M11,Midtown,flag,high,Rude cashier; overcharged $4 and refused to fix it,no,
+M12,Midtown,reply,,,yes,
+M13,Midtown,report,,,no,removal reason: Promotes a competitor and contains a link
+M14,Midtown,reply+flag,normal,Very long queue on Saturday,yes,
+M15,Midtown,reply,,,yes,
+M16,Midtown,flag,normal,Sticky tables; bathroom out of soap (cleanliness),no,
+M17,Midtown,reply,,,yes,
+M18,Midtown,flag,normal,Coffee was cold by the time it was served,no,
+M19,Midtown,reply,,,yes,
+M20,Midtown,urgent,,Allergic reaction to a 'nut-free' muffin that contained nuts; went to urgent care,no,call manager within 24h; do not reply
+M21,Midtown,reply,,,yes,
+M22,Midtown,report,,,no,removal reason: Not about our business (describes a hotel)
+M23,Midtown,deleted,,,no,404 on reply; excluded from report
+M24,Midtown,reply+flag,normal,Ran out of oat milk again (stock),yes,
+M25,Midtown,flag,normal,Long wait; staff seemed overwhelmed,no,
+M26,Midtown,reply,,,yes,
+R01,Riverside,already-replied,,,yes,[corrected] existing reply replaced under rule 1/4c
+R02,Riverside,already-replied,,,no,
+R03,Riverside,already-replied,,,no,
+R04,Riverside,flag,normal,Stale scone,no,
+R05,Riverside,reply,,,yes,
+R06,Riverside,reply,,,yes,
+R07,Riverside,flag,high,Overpriced for what you get,no,
+R08,Riverside,reply,,,yes,
+R09,Riverside,reply+flag,normal,Parking is a nightmare,yes,
+R10,Riverside,urgent,,Food poisoning after the chicken panini,no,call manager within 24h; do not reply
+R11,Riverside,reply,,,yes,
+R12,Riverside,report,,,no,removal reason: Conflict of interest (owner's family member)
+R13,Riverside,flag,normal,Okay sandwiches; slow wifi,no,
+R14,Riverside,reply,,,yes,
+R15,Riverside,deleted,,,no,404 on reply; excluded from report
+R16,Riverside,flag,normal,"1 star, no text",no,
+R17,Riverside,reply,,,yes,
+R18,Riverside,urgent,,Piece of plastic in a muffin,no,call manager within 24h; do not reply
+R19,Riverside,reply+flag,normal,Music too loud (noise),yes,
+R20,Riverside,reply+flag,normal,"Review is about our Old Town location, posted on Riverside",yes,about_location=Old Town
+R21,Riverside,reply,,,yes,
+R22,Riverside,flag,normal,Coffee tasted burnt,no,
+R23,Riverside,reply,,,yes,
+R24,Riverside,report,,,no,"removal reason: Profanity only, no content"
+O01,Old Town,already-replied,,,no,
+O02,Old Town,reply,,,yes,manual post by owner
+O03,Old Town,urgent,,Cockroach near the counter; dirty floors,no,call manager within 24h; do not reply
+O04,Old Town,reply,,,yes,manual post by owner
+O05,Old Town,urgent,,"Ordered gluten-free, got regular bread; now feeling unwell",no,call manager within 24h; do not reply
+O06,Old Town,reply,,,yes,manual post by owner
+O07,Old Town,flag,normal,Small portions,no,
+O08,Old Town,reply,,,yes,manual post by owner
+O09,Old Town,reply+flag,normal,Cash only (payment options),yes,manual post by owner
+O10,Old Town,reply,,,yes,manual post by owner
+O11,Old Town,report,,,no,removal reason: Describes no actual visit
+O12,Old Town,reply,,,yes,manual post by owner

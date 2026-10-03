@@ -1,0 +1,6 @@
+our_id,location,review_id,reviewer,stars,create_date,reason,playbook_basis,text
+M13,Midtown,AbFvOqsMQzuMrwCgQLD_JHWMgNmCcfYa,Local Foodie 99,1,2026-09-05,Promotes a competitor and contains a link,playbook 2.2 (report): Promotes a competitor (Brew Haven) and contains a link (www.brewhaven.test).,"This place is a scam, go to Brew Haven on 5th instead, much better!! www.brewhaven.test"
+M22,Midtown,AbFvOqExQT5F3EtBXxdEbvhDH6HQqs5H,Elaine Brooks,5,2026-09-20,Not about our business (describes a hotel),"playbook 2.2 (report): Wrong business: describes a hotel stay (room service, pool).","Wonderful stay, the room service was amazing and the pool is great!"
+R12,Riverside,AbFvOqLJShuWUCEkzymBBHDJ5Yd8SqBQ,Tony Bellini,5,2026-09-07,Conflict of interest (owner's family member),playbook 2.2 (report): Conflict of interest: reviewer says they are the owner's cousin.,I'm the owner's cousin and honestly this is the best bakery ever!!
+R24,Riverside,AbFvOqq64g6GANuLHFXKZqzGnzeyW524,xX_angry_Xx,1,2026-09-30,"Profanity only, no content",playbook 2.2 (report): Contains only profanity.,"f*** this place, worst ****"
+O11,Old Town,,Darren Pike,1,2026-09-25,Describes no actual visit,playbook 2.2 (report): Describes no actual visit ('Never been here').,Never been here but I've heard bad things.

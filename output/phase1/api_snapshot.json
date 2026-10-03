@@ -1,0 +1,580 @@
+{
+ "Midtown": [
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqCF8HipfRa9fgWG3jBkxaD7Kdu3",
+   "reviewId": "AbFvOqCF8HipfRa9fgWG3jBkxaD7Kdu3",
+   "reviewer": {
+    "displayName": "Andre Silva"
+   },
+   "starRating": "FIVE",
+   "comment": "Their chai is incredible and Omar is so friendly.",
+   "createTime": "2026-09-29T11:58:00Z",
+   "updateTime": "2026-09-29T11:58:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqqQSEmRS6zUjJ4R8ZfyaMJwBsXF",
+   "reviewId": "AbFvOqqQSEmRS6zUjJ4R8ZfyaMJwBsXF",
+   "reviewer": {
+    "displayName": "Ivy Chen"
+   },
+   "starRating": "TWO",
+   "comment": "Waited ages and the staff seemed totally overwhelmed.",
+   "createTime": "2026-09-27T17:58:00Z",
+   "updateTime": "2026-09-27T17:58:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOq9qJAdFWuphhYsZ-DJvUKnruiU-",
+   "reviewId": "AbFvOq9qJAdFWuphhYsZ-DJvUKnruiU-",
+   "reviewer": {
+    "displayName": "Greg Malone"
+   },
+   "starRating": "FOUR",
+   "comment": "Good, but they ran out of oat milk again.",
+   "createTime": "2026-09-25T16:41:00Z",
+   "updateTime": "2026-09-25T16:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqUw-eKMqMc4LEqPCmGtayETDnnH",
+   "reviewId": "AbFvOqUw-eKMqMc4LEqPCmGtayETDnnH",
+   "reviewer": {
+    "displayName": "Simone Laurent"
+   },
+   "starRating": "FIVE",
+   "comment": "Ordered the seasonal pumpkin loaf - so moist!",
+   "createTime": "2026-09-22T19:33:00Z",
+   "updateTime": "2026-09-22T19:33:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqExQT5F3EtBXxdEbvhDH6HQqs5H",
+   "reviewId": "AbFvOqExQT5F3EtBXxdEbvhDH6HQqs5H",
+   "reviewer": {
+    "displayName": "Elaine Brooks"
+   },
+   "starRating": "FIVE",
+   "comment": "Wonderful stay, the room service was amazing and the pool is great!",
+   "createTime": "2026-09-20T19:12:00Z",
+   "updateTime": "2026-09-20T19:12:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqV6Av2doUs2g-VKLgvm9hXkKdok",
+   "reviewId": "AbFvOqV6Av2doUs2g-VKLgvm9hXkKdok",
+   "reviewer": {
+    "displayName": "Victor Osei"
+   },
+   "starRating": "FOUR",
+   "comment": "Solid breakfast spot.",
+   "createTime": "2026-09-18T20:04:00Z",
+   "updateTime": "2026-09-18T20:04:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqAd24dpnvwrsg7-6agbu7xN_Uf6",
+   "reviewId": "AbFvOqAd24dpnvwrsg7-6agbu7xN_Uf6",
+   "reviewer": {
+    "displayName": "Tara Quinn"
+   },
+   "starRating": "ONE",
+   "comment": "I had an allergic reaction - the 'nut-free' muffin clearly had nuts in it. Ended up in urgent care.",
+   "createTime": "2026-09-15T20:04:00Z",
+   "updateTime": "2026-09-15T20:04:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqkwXqUxjBfYZuy5oJCASmfu-G9u",
+   "reviewId": "AbFvOqkwXqUxjBfYZuy5oJCASmfu-G9u",
+   "reviewer": {
+    "displayName": "Felix Brandt"
+   },
+   "starRating": "FIVE",
+   "comment": "Came for the matcha, stayed for the vibe.",
+   "createTime": "2026-09-14T16:12:00Z",
+   "updateTime": "2026-09-14T16:12:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqmTRg3CRhT7KxUUhpgjs8p9y_HB",
+   "reviewId": "AbFvOqmTRg3CRhT7KxUUhpgjs8p9y_HB",
+   "reviewer": {
+    "displayName": "Rachel Adeyemi"
+   },
+   "starRating": "THREE",
+   "comment": "Coffee was cold by the time I got it.",
+   "createTime": "2026-09-12T20:12:00Z",
+   "updateTime": "2026-09-12T20:12:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqSyVhScBWVhUKgBHtqeRUC3J5bA",
+   "reviewId": "AbFvOqSyVhScBWVhUKgBHtqeRUC3J5bA",
+   "reviewer": {
+    "displayName": "K. W."
+   },
+   "starRating": "FIVE",
+   "createTime": "2026-09-11T15:41:00Z",
+   "updateTime": "2026-09-11T15:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqaGWn-qkKWr9_naddQhUgwaa7-L",
+   "reviewId": "AbFvOqaGWn-qkKWr9_naddQhUgwaa7-L",
+   "reviewer": {
+    "displayName": "Owen Mercer"
+   },
+   "starRating": "TWO",
+   "comment": "Tables were sticky and the bathroom was out of soap.",
+   "createTime": "2026-09-09T17:41:00Z",
+   "updateTime": "2026-09-09T17:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqoUY5Jcc5nskZfKLpangNJpFY5_",
+   "reviewId": "AbFvOqoUY5Jcc5nskZfKLpangNJpFY5_",
+   "reviewer": {
+    "displayName": "Nadia Petrova"
+   },
+   "starRating": "FIVE",
+   "comment": "Jess is a star - best service I've had anywhere.",
+   "createTime": "2026-09-08T18:04:00Z",
+   "updateTime": "2026-09-08T18:04:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqEoPRw_ZAYbT7c8Hv6mZCmqVGUk",
+   "reviewId": "AbFvOqEoPRw_ZAYbT7c8Hv6mZCmqVGUk",
+   "reviewer": {
+    "displayName": "Paul Lindqvist"
+   },
+   "starRating": "FOUR",
+   "comment": "Nice cinnamon rolls. The line was really long on Saturday though.",
+   "createTime": "2026-09-06T16:27:00Z",
+   "updateTime": "2026-09-06T16:27:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqsMQzuMrwCgQLD_JHWMgNmCcfYa",
+   "reviewId": "AbFvOqsMQzuMrwCgQLD_JHWMgNmCcfYa",
+   "reviewer": {
+    "displayName": "Local Foodie 99"
+   },
+   "starRating": "ONE",
+   "comment": "This place is a scam, go to Brew Haven on 5th instead, much better!! www.brewhaven.test",
+   "createTime": "2026-09-05T18:41:00Z",
+   "updateTime": "2026-09-05T18:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqUvFxtxcLq2ojtcVqm28rTxBNLo",
+   "reviewId": "AbFvOqUvFxtxcLq2ojtcVqm28rTxBNLo",
+   "reviewer": {
+    "displayName": "Carmen Ruiz"
+   },
+   "starRating": "FIVE",
+   "comment": "¡El mejor café de la zona! Muy amables.",
+   "createTime": "2026-09-03T15:41:00Z",
+   "updateTime": "2026-09-03T15:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqCwMqNHzR5fYiY_jS2fGoy24Z8U",
+   "reviewId": "AbFvOqCwMqNHzR5fYiY_jS2fGoy24Z8U",
+   "reviewer": {
+    "displayName": "Derek Pruitt"
+   },
+   "starRating": "ONE",
+   "comment": "Found a hair in my quiche. Disgusting. UPDATE: I was sick all night after eating it.",
+   "createTime": "2026-08-15T08:33:00Z",
+   "updateTime": "2026-09-03T13:41:00Z",
+   "reviewReply": {
+    "comment": "We're sorry, Derek. We've reviewed our kitchen procedures. - Priya, Midtown",
+    "updateTime": "2026-08-16T09:12:00Z"
+   }
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqsu4YYTsYy6cY6M88veZXjKjLN6",
+   "reviewId": "AbFvOqsu4YYTsYy6cY6M88veZXjKjLN6",
+   "reviewer": {
+    "displayName": "Melissa Grant"
+   },
+   "starRating": "ONE",
+   "comment": "Rude cashier, overcharged me $4 and refused to fix it.",
+   "createTime": "2026-09-02T13:33:00Z",
+   "updateTime": "2026-09-02T13:33:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqZmwtT6hS2vwUXsMo7Agm2SWtTf",
+   "reviewId": "AbFvOqZmwtT6hS2vwUXsMo7Agm2SWtTf",
+   "reviewer": {
+    "displayName": "Jonas Weber"
+   },
+   "starRating": "FIVE",
+   "comment": "Perfect sourdough. Will be back!",
+   "createTime": "2026-09-01T12:41:00Z",
+   "updateTime": "2026-09-01T12:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqa5kMrh8XMFhTi3m8iZE332Yvot",
+   "reviewId": "AbFvOqa5kMrh8XMFhTi3m8iZE332Yvot",
+   "reviewer": {
+    "displayName": "Sandra Kim"
+   },
+   "starRating": "FOUR",
+   "comment": "Great pastries but the wifi never works.",
+   "createTime": "2026-08-30T08:27:00Z",
+   "updateTime": "2026-08-30T08:27:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqGLdZKD7cUKfq7LjfhvxWgTUgb_",
+   "reviewId": "AbFvOqGLdZKD7cUKfq7LjfhvxWgTUgb_",
+   "reviewer": {
+    "displayName": "Hiro Tanaka"
+   },
+   "starRating": "FIVE",
+   "comment": "Omar made the best flat white I've had in years.",
+   "createTime": "2026-08-27T10:04:00Z",
+   "updateTime": "2026-08-27T10:04:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqbCRypY5SfscKD-rC4hX6PJxnJr",
+   "reviewId": "AbFvOqbCRypY5SfscKD-rC4hX6PJxnJr",
+   "reviewer": {
+    "displayName": "Chris Daley"
+   },
+   "starRating": "THREE",
+   "comment": "Fine. Nothing special.",
+   "createTime": "2026-08-22T20:33:00Z",
+   "updateTime": "2026-08-22T20:33:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqqZ-KXTvkFVuWVM4FrKxvVgLxDF",
+   "reviewId": "AbFvOqqZ-KXTvkFVuWVM4FrKxvVgLxDF",
+   "reviewer": {
+    "displayName": "Ayesha Raman"
+   },
+   "starRating": "FIVE",
+   "comment": "Lovely staff and such cozy seating. My new favourite spot to read.",
+   "createTime": "2026-08-18T17:41:00Z",
+   "updateTime": "2026-08-18T17:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqY5VgvWMggwMDSByY7bBm3cZao6",
+   "reviewId": "AbFvOqY5VgvWMggwMDSByY7bBm3cZao6",
+   "reviewer": {
+    "displayName": "Lucia Fernandes"
+   },
+   "starRating": "FIVE",
+   "createTime": "2026-08-12T08:33:00Z",
+   "updateTime": "2026-08-12T08:33:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqk9urPMvN_aVBZcLKSEXV5poApu",
+   "reviewId": "AbFvOqk9urPMvN_aVBZcLKSEXV5poApu",
+   "reviewer": {
+    "displayName": "Ben Okoro"
+   },
+   "starRating": "TWO",
+   "comment": "Waited 25 minutes for two lattes.",
+   "createTime": "2026-08-09T19:27:00Z",
+   "updateTime": "2026-08-09T19:27:00Z",
+   "reviewReply": {
+    "comment": "Sorry for the wait, Ben. We've added a second barista on weekends. - Priya, Midtown",
+    "updateTime": "2026-08-10T09:27:00Z"
+   }
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqxPcTM-82aLz4EJqqeJJA8AP2PL",
+   "reviewId": "AbFvOqxPcTM-82aLz4EJqqeJJA8AP2PL",
+   "reviewer": {
+    "displayName": "Tomasz Wiecek"
+   },
+   "starRating": "FOUR",
+   "comment": "Good coffee, a bit pricey.",
+   "createTime": "2026-08-05T10:27:00Z",
+   "updateTime": "2026-08-05T10:27:00Z",
+   "reviewReply": {
+    "comment": "Thanks Tomasz, glad you enjoyed the coffee! - Priya, Midtown",
+    "updateTime": "2026-08-06T13:12:00Z"
+   }
+  },
+  {
+   "name": "accounts/118/locations/4471/reviews/AbFvOqqSyY3v6ysjB6f2RsD_LHZg8Rak",
+   "reviewId": "AbFvOqqSyY3v6ysjB6f2RsD_LHZg8Rak",
+   "reviewer": {
+    "displayName": "Grace Holloway"
+   },
+   "starRating": "FIVE",
+   "comment": "Best almond croissant in the city. Jess remembered my order!",
+   "createTime": "2026-08-03T09:41:00Z",
+   "updateTime": "2026-08-03T09:41:00Z",
+   "reviewReply": {
+    "comment": "Thank you Grace! Jess will be thrilled. - Priya, Midtown",
+    "updateTime": "2026-08-04T11:04:00Z"
+   }
+  }
+ ],
+ "Riverside": [
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqq64g6GANuLHFXKZqzGnzeyW524",
+   "reviewId": "AbFvOqq64g6GANuLHFXKZqzGnzeyW524",
+   "reviewer": {
+    "displayName": "xX_angry_Xx"
+   },
+   "starRating": "ONE",
+   "comment": "f*** this place, worst ****",
+   "createTime": "2026-09-30T10:58:00Z",
+   "updateTime": "2026-09-30T10:58:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqnMdNWpGs3vXxEDhJ6jEWN7fsa_",
+   "reviewId": "AbFvOqnMdNWpGs3vXxEDhJ6jEWN7fsa_",
+   "reviewer": {
+    "displayName": "Erin Walsh"
+   },
+   "starRating": "FIVE",
+   "comment": "Loved the pumpkin loaf.",
+   "createTime": "2026-09-28T11:58:00Z",
+   "updateTime": "2026-09-28T11:58:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOq9kxccQdgjp_RVcTFp9XMcBKHUn",
+   "reviewId": "AbFvOq9kxccQdgjp_RVcTFp9XMcBKHUn",
+   "reviewer": {
+    "displayName": "Marcus Bell"
+   },
+   "starRating": "THREE",
+   "comment": "Croissant was good, coffee tasted burnt.",
+   "createTime": "2026-09-26T16:41:00Z",
+   "updateTime": "2026-09-26T16:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqvwZR9GPUV4T4qE_LErc2MQsEnn",
+   "reviewId": "AbFvOqvwZR9GPUV4T4qE_LErc2MQsEnn",
+   "reviewer": {
+    "displayName": "Sophie Durand"
+   },
+   "starRating": "FIVE",
+   "comment": "Ana at the counter was so sweet.",
+   "createTime": "2026-09-24T18:58:00Z",
+   "updateTime": "2026-09-24T18:58:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqF_HRX3kdbAtaaMzsj_P-uqWaWG",
+   "reviewId": "AbFvOqF_HRX3kdbAtaaMzsj_P-uqWaWG",
+   "reviewer": {
+    "displayName": "Clara Jensen"
+   },
+   "starRating": "FIVE",
+   "comment": "Visited your Old Town shop last weekend - loved the courtyard!",
+   "createTime": "2026-09-23T19:41:00Z",
+   "updateTime": "2026-09-23T19:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqo8zwcVATwRECzFtV_Yv46ypqmP",
+   "reviewId": "AbFvOqo8zwcVATwRECzFtV_Yv46ypqmP",
+   "reviewer": {
+    "displayName": "George Mills"
+   },
+   "starRating": "FOUR",
+   "comment": "Good coffee, but the music was way too loud.",
+   "createTime": "2026-09-21T15:41:00Z",
+   "updateTime": "2026-09-21T15:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqbe35ovmtDkK4cZoBu2jPUUEBF2",
+   "reviewId": "AbFvOqbe35ovmtDkK4cZoBu2jPUUEBF2",
+   "reviewer": {
+    "displayName": "Fatima Noor"
+   },
+   "starRating": "TWO",
+   "comment": "Found a piece of plastic in my muffin.",
+   "createTime": "2026-09-19T13:41:00Z",
+   "updateTime": "2026-09-19T13:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqqF4NavAGipoqM5aBWuBqViaigk",
+   "reviewId": "AbFvOqqF4NavAGipoqM5aBWuBqViaigk",
+   "reviewer": {
+    "displayName": "Noah Becker"
+   },
+   "starRating": "FIVE",
+   "comment": "The team here runs a tight ship. Always fast.",
+   "createTime": "2026-09-17T19:58:00Z",
+   "updateTime": "2026-09-17T19:58:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqhbYKK6RhaCGLbGzwU_-N34zWgu",
+   "reviewId": "AbFvOqhbYKK6RhaCGLbGzwU_-N34zWgu",
+   "reviewer": {
+    "displayName": "A Google User"
+   },
+   "starRating": "ONE",
+   "createTime": "2026-09-16T15:41:00Z",
+   "updateTime": "2026-09-16T15:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqRgw9YbfPNT5NVmjYzz3RZY4R5t",
+   "reviewId": "AbFvOqRgw9YbfPNT5NVmjYzz3RZY4R5t",
+   "reviewer": {
+    "displayName": "Liam Walsh"
+   },
+   "starRating": "FIVE",
+   "comment": "Best bakery on the river!",
+   "createTime": "2026-09-13T08:41:00Z",
+   "updateTime": "2026-09-13T08:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqe-QfpdLeD2tLkghpAGJ57cuDPA",
+   "reviewId": "AbFvOqe-QfpdLeD2tLkghpAGJ57cuDPA",
+   "reviewer": {
+    "displayName": "Beatriz Costa"
+   },
+   "starRating": "FOUR",
+   "comment": "Lovely staff, good scones.",
+   "createTime": "2026-09-12T08:41:00Z",
+   "updateTime": "2026-09-12T08:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqJZNXYALoq5LxGTjpLrwKezd3dH",
+   "reviewId": "AbFvOqJZNXYALoq5LxGTjpLrwKezd3dH",
+   "reviewer": {
+    "displayName": "Craig Summers"
+   },
+   "starRating": "THREE",
+   "comment": "Okay sandwiches, slow wifi.",
+   "createTime": "2026-09-10T13:27:00Z",
+   "updateTime": "2026-09-10T13:27:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqLJShuWUCEkzymBBHDJ5Yd8SqBQ",
+   "reviewId": "AbFvOqLJShuWUCEkzymBBHDJ5Yd8SqBQ",
+   "reviewer": {
+    "displayName": "Tony Bellini"
+   },
+   "starRating": "FIVE",
+   "comment": "I'm the owner's cousin and honestly this is the best bakery ever!!",
+   "createTime": "2026-09-07T16:33:00Z",
+   "updateTime": "2026-09-07T16:33:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOq_UszJnBeK5vs3BxDvdTG44amJW",
+   "reviewId": "AbFvOq_UszJnBeK5vs3BxDvdTG44amJW",
+   "reviewer": {
+    "displayName": "Mei Lin"
+   },
+   "starRating": "FIVE",
+   "createTime": "2026-09-06T09:27:00Z",
+   "updateTime": "2026-09-06T09:27:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOq4dntRTDhvRDwN3U9Z9GEc2Waz2",
+   "reviewId": "AbFvOq4dntRTDhvRDwN3U9Z9GEc2Waz2",
+   "reviewer": {
+    "displayName": "Kevin Doyle"
+   },
+   "starRating": "ONE",
+   "comment": "Got food poisoning after the chicken panini.",
+   "createTime": "2026-09-04T16:04:00Z",
+   "updateTime": "2026-09-04T16:04:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOq-zVve_5QmHJVgF22S5bWJJkFgR",
+   "reviewId": "AbFvOq-zVve_5QmHJVgF22S5bWJJkFgR",
+   "reviewer": {
+    "displayName": "Hannah Fisher"
+   },
+   "starRating": "FOUR",
+   "comment": "Great coffee. Parking is a nightmare though.",
+   "createTime": "2026-09-02T19:04:00Z",
+   "updateTime": "2026-09-02T19:04:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqFW3GFk-LpE7xPqBekYhdn2ajrJ",
+   "reviewId": "AbFvOqFW3GFk-LpE7xPqBekYhdn2ajrJ",
+   "reviewer": {
+    "displayName": "Mateo Alvarez"
+   },
+   "starRating": "FIVE",
+   "comment": "Excelente pan y servicio rápido.",
+   "createTime": "2026-09-01T19:04:00Z",
+   "updateTime": "2026-09-01T19:04:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqDuRsDhb3DDS6ceVrD9CNMvirbN",
+   "reviewId": "AbFvOqDuRsDhb3DDS6ceVrD9CNMvirbN",
+   "reviewer": {
+    "displayName": "Peter Huang"
+   },
+   "starRating": "TWO",
+   "comment": "Overpriced for what you get.",
+   "createTime": "2026-08-28T16:12:00Z",
+   "updateTime": "2026-08-28T16:12:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqdxTAfDe2ucLCCm66jnYGwER_4h",
+   "reviewId": "AbFvOqdxTAfDe2ucLCCm66jnYGwER_4h",
+   "reviewer": {
+    "displayName": "Olga Ivanova"
+   },
+   "starRating": "FIVE",
+   "comment": "Theo is the best barista!",
+   "createTime": "2026-08-24T09:33:00Z",
+   "updateTime": "2026-08-24T09:33:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqnQtFqb-wZuVMfZUExwfL2RMuPC",
+   "reviewId": "AbFvOqnQtFqb-wZuVMfZUExwfL2RMuPC",
+   "reviewer": {
+    "displayName": "Daniel Park"
+   },
+   "starRating": "FIVE",
+   "comment": "Lena made my kid's day with a cookie!",
+   "createTime": "2026-08-19T18:41:00Z",
+   "updateTime": "2026-08-19T18:41:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOq_CYzZWDvBufg7KH3tWUfuRxLCN",
+   "reviewId": "AbFvOq_CYzZWDvBufg7KH3tWUfuRxLCN",
+   "reviewer": {
+    "displayName": "Leah Morgan"
+   },
+   "starRating": "THREE",
+   "comment": "Theo was helpful but the scone was stale.",
+   "createTime": "2026-08-14T19:04:00Z",
+   "updateTime": "2026-08-14T19:04:00Z"
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOq-dWffGNKsLEZ8a89gKmSHT5LzU",
+   "reviewId": "AbFvOq-dWffGNKsLEZ8a89gKmSHT5LzU",
+   "reviewer": {
+    "displayName": "Sam Whitfield"
+   },
+   "starRating": "ONE",
+   "comment": "Closed 30 minutes before the posted hours.",
+   "createTime": "2026-08-10T18:12:00Z",
+   "updateTime": "2026-08-10T18:12:00Z",
+   "reviewReply": {
+    "comment": "Sorry Sam, our hours are now updated. - Marco, Riverside",
+    "updateTime": "2026-08-11T08:33:00Z"
+   }
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqd7ZjConPyMbEGCCMNNCh9gtzYA",
+   "reviewId": "AbFvOqd7ZjConPyMbEGCCMNNCh9gtzYA",
+   "reviewer": {
+    "displayName": "Julia Novak"
+   },
+   "starRating": "FOUR",
+   "comment": "Nice patio.",
+   "createTime": "2026-08-06T14:33:00Z",
+   "updateTime": "2026-08-06T14:33:00Z",
+   "reviewReply": {
+    "comment": "Thank you Julia! See you on the patio soon. - Marco, Riverside",
+    "updateTime": "2026-08-07T12:41:00Z"
+   }
+  },
+  {
+   "name": "accounts/118/locations/4472/reviews/AbFvOqHF-th5PJvqaY6RUXqwY3aaJx6Y",
+   "reviewId": "AbFvOqHF-th5PJvqaY6RUXqwY3aaJx6Y",
+   "reviewer": {
+    "displayName": "Martin Cole"
+   },
+   "starRating": "FIVE",
+   "comment": "River view and a great espresso.",
+   "createTime": "2026-08-02T18:27:00Z",
+   "updateTime": "2026-08-02T18:27:00Z",
+   "reviewReply": {
+    "comment": "Thanks Martin - Theo says hi! - Marco, Riverside",
+    "updateTime": "2026-08-03T20:58:00Z"
+   }
+  }
+ ]
+}
